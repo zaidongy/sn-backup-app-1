@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_appcollab_permission_m2m">
+    <sys_appcollab_permission_m2m action="DELETE">
+        <descriptor display_value="Deployer">b8b4e7cb97d38110cf6f797e6253af09</descriptor>
+        <permission display_value="Upgrade App">15cd4605530203001f2bddeeff7b1225</permission>
+        <sys_class_name>sys_appcollab_permission_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-11 09:30:56</sys_created_on>
+        <sys_id>9655670f97d38110cf6f797e6253af06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Crypto Tracker" source="x_404764_crypto_0">d733440497430110cf6f797e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+        <sys_update_name>sys_appcollab_permission_m2m_9655670f97d38110cf6f797e6253af06</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-11 09:30:56</sys_updated_on>
+    </sys_appcollab_permission_m2m>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</application>
+        <file_path/>
+        <instance_id>e5186587db371fc00e785d00cf961901</instance_id>
+        <instance_name>dev70149</instance_name>
+        <name>sys_appcollab_permission_m2m_9655670f97d38110cf6f797e6253af06</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_appcollab_permission_m2m"><sys_appcollab_permission_m2m action="INSERT_OR_UPDATE"><descriptor display_value="Deployer">b8b4e7cb97d38110cf6f797e6253af09</descriptor><permission display_value="Upgrade App">15cd4605530203001f2bddeeff7b1225</permission><sys_class_name>sys_appcollab_permission_m2m</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-11 09:30:56</sys_created_on><sys_id>9655670f97d38110cf6f797e6253af06</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Crypto Tracker" source="x_404764_crypto_0">d733440497430110cf6f797e6253afa0</sys_package><sys_policy/><sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope><sys_update_name>sys_appcollab_permission_m2m_9655670f97d38110cf6f797e6253af06</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-11 09:30:56</sys_updated_on></sys_appcollab_permission_m2m></record_update>]]></payload>
+        <payload_hash>-1838286041</payload_hash>
+        <record_name>b8b4e7cb97d38110cf6f797e6253af09</record_name>
+        <reverted_from/>
+        <source>d733440497430110cf6f797e6253afa2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-11 09:30:56</sys_created_on>
+        <sys_id>d655670f97d38110cf6f797e6253af08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180b2750b580000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-11 09:30:56</sys_updated_on>
+        <type>App Collaboration Descriptor Permission</type>
+        <update_guid>1255670fe2d38110e3cfdde48248d208</update_guid>
+        <update_guid_history>1255670fe2d38110e3cfdde48248d208:-1838286041</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-11 09:38:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_appcollab_permission_m2m">sys_appcollab_permission_m2m</sys_db_object>
+        <sys_id>73f2e75a343e4ec0a0dcba620fbfa400</sys_id>
+        <sys_metadata>9655670f97d38110cf6f797e6253af06</sys_metadata>
+        <sys_name/>
+        <sys_package display_value="Crypto Tracker" source="x_404764_crypto_0">d733440497430110cf6f797e6253afa0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+        <sys_scope_delete display_value="">03d984c06a1f439080130e9b17491984</sys_scope_delete>
+        <sys_update_name>sys_appcollab_permission_m2m_9655670f97d38110cf6f797e6253af06</sys_update_name>
+        <sys_update_version display_value="sys_appcollab_permission_m2m_9655670f97d38110cf6f797e6253af06">d655670f97d38110cf6f797e6253af08</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

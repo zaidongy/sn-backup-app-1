@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{ }</macroponent_config>
+        <screen display_value="First Page default">967568eb97031110cf6f797e6253af75</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-14 18:45:02</sys_created_on>
+        <sys_id>1e7568eb97031110cf6f797e6253af78</sys_id>
+        <sys_name/>
+        <sys_package display_value="Crypto Tracker" source="x_404764_crypto_0">d733440497430110cf6f797e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_1e7568eb97031110cf6f797e6253af78</sys_update_name>
+    </sys_uib_screen_test_values>
+</record_update>

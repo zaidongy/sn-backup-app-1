@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition">
+    <sn_decision_table_decision_condition action="INSERT_OR_UPDATE">
+        <decision_input display_value="Direction">ed5da85a975b1110cf6f797e6253af69</decision_input>
+        <decision_table display_value="Crypto Buy or Sell">c36ce056975b1110cf6f797e6253af34</decision_table>
+        <default_operator>=</default_operator>
+        <description>Price Going up</description>
+        <field/>
+        <field_label/>
+        <field_parent_table/>
+        <label>Price Going up</label>
+        <order>200</order>
+        <reference/>
+        <sys_class_name>sn_decision_table_decision_condition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-23 08:22:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>165d201a975b1110cf6f797e6253af96</sys_id>
+        <sys_name/>
+        <sys_package display_value="Crypto Tracker" source="x_404764_crypto_0">d733440497430110cf6f797e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+        <sys_update_name>sn_decision_table_decision_condition_165d201a975b1110cf6f797e6253af96</sys_update_name>
+        <type display_value="Choice">5217a7c1bf3320001875647fcf0739b7</type>
+    </sn_decision_table_decision_condition>
+</record_update>

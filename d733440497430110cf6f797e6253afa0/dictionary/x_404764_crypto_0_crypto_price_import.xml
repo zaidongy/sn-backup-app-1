@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c205d70e97430110cf6f797e6253af0e" extends="sys_import_set_row" label="Crypto Price Import" max_length="40" name="x_404764_crypto_0_crypto_price_import" type="collection">
+        <element label="Circulating supply" max_length="40" name="circulating_supply" type="string"/>
+        <element label="Cmc rank" max_length="40" name="cmc_rank" type="string"/>
+        <element label="id" max_length="40" name="id" type="string"/>
+        <element label="Max supply" max_length="40" name="max_supply" type="string"/>
+        <element label="name" max_length="40" name="name" type="string"/>
+        <element label="Num market pairs" max_length="40" name="num_market_pairs" type="string"/>
+        <element label="platform" max_length="40" name="platform" type="string"/>
+        <element label="price" max_length="40" name="price" type="string"/>
+        <element label="slug" max_length="40" name="slug" type="string"/>
+        <element label="symbol" max_length="40" name="symbol" type="string"/>
+        <element label="Volume 24h" max_length="40" name="volume_24h" type="string"/>
+    </element>
+</database>

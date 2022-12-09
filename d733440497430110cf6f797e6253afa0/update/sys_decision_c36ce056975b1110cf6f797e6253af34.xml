@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision">
+    <sys_decision action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <answer_table>sys_decision_multi_result</answer_table>
+        <answer_type>reference</answer_type>
+        <description/>
+        <label/>
+        <name>Crypto Buy or Sell</name>
+        <reference_qualifier/>
+        <sys_class_name>sys_decision</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-23 08:18:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c36ce056975b1110cf6f797e6253af34</sys_id>
+        <sys_name>Crypto Buy or Sell</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Crypto Tracker" source="x_404764_crypto_0">d733440497430110cf6f797e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+        <sys_update_name>sys_decision_c36ce056975b1110cf6f797e6253af34</sys_update_name>
+    </sys_decision>
+</record_update>

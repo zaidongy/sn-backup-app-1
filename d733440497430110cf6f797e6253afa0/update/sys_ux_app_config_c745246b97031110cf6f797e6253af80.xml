@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config">
+    <sys_ux_app_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <custom_icon/>
+        <default_route_type/>
+        <description/>
+        <encode_query_string>false</encode_query_string>
+        <icon/>
+        <landing_path>home</landing_path>
+        <name>CryptoSpace</name>
+        <prefetch_limits/>
+        <sys_class_name>sys_ux_app_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-14 18:44:17</sys_created_on>
+        <sys_id>c745246b97031110cf6f797e6253af80</sys_id>
+        <sys_name>CryptoSpace</sys_name>
+        <sys_package display_value="Crypto Tracker" source="x_404764_crypto_0">d733440497430110cf6f797e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+        <sys_update_name>sys_ux_app_config_c745246b97031110cf6f797e6253af80</sys_update_name>
+    </sys_ux_app_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=c745246b97031110cf6f797e6253af80"/>
+</record_update>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>665da85a975b1110cf6f797e6253affd</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>925da85a975b1110cf6f797e6253afe8</answer>
+        <condition table="var__m_sys_decision_input_c36ce056975b1110cf6f797e6253af34">u_price&lt;100^u_direction=down^EQ<item endquery="false" field="u_price" goto="false" newquery="false" operator="&lt;" or="false" value="100"/>
+            <item display_value="Down" endquery="false" field="u_direction" goto="false" newquery="false" operator="=" or="false" value="down"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="Buy or Sell">c36ce056975b1110cf6f797e6253af34</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_c36ce056975b1110cf6f797e6253af34</input_table>
+        <label>Buy or Sell_250</label>
+        <order>250</order>
+        <sys_class_name>sys_decision_question</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-23 08:22:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>665da85a975b1110cf6f797e6253affd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-23 08:22:46</sys_updated_on>
+    </sys_decision_question>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-23 08:22:46</sys_created_on>
+        <sys_id>6a5da85a975b1110cf6f797e6253affd</sys_id>
+        <sys_name/>
+        <sys_package display_value="Crypto Tracker" source="x_404764_crypto_0">d733440497430110cf6f797e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+        <sys_update_name>sys_metadata_link_6a5da85a975b1110cf6f797e6253affd</sys_update_name>
+        <tablename>sys_decision_question</tablename>
+    </sys_metadata_link>
+</record_update>

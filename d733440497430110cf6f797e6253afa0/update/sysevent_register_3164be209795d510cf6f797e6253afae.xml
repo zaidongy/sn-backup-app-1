@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <description/>
+        <event_name>x_404764_crypto_0.price_updated</event_name>
+        <fired_by/>
+        <queue>crypto</queue>
+        <suffix>price_updated</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-10 21:38:23</sys_created_on>
+        <sys_id>3164be209795d510cf6f797e6253afae</sys_id>
+        <sys_name>x_404764_crypto_0.price_updated</sys_name>
+        <sys_package display_value="Crypto Tracker" source="x_404764_crypto_0">d733440497430110cf6f797e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+        <sys_update_name>sysevent_register_3164be209795d510cf6f797e6253afae</sys_update_name>
+        <table>x_404764_crypto_0_crypto_prices</table>
+    </sysevent_register>
+</record_update>

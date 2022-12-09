@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="all_tables.synch_attachments=true,all_tables.text_index_translations=true,global_search_config_handler=CatalogItem,text_wiki_translations=true,update_synch=true" db_object_id="621904f521920110a866589604c20d27" extends="sys_metadata" label="Catalog Item" max_length="40" name="sc_cat_item" read_roles="catalog,itil" text_index="true" type="collection">
+        <element hint="Make an additional review for this item" label="Requires Additional Review" max_length="40" name="additional_review" type="boolean"/>
+        <element hint="Create a Universal Request for this item" label="UR certified" max_length="40" name="create_universal_request" type="boolean"/>
+    </element>
+</database>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description/>
+        <name>CyrptoTracker Test FIx Script</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[run();
+
+function run() {
+	var hrp = new GlideRecord('x_404764_crypto_0_crypto_prices');
+	hrp.get('0dd5a02797af4910cf6f797e6253af39');
+// 	hrp.setDisplayValue('client_secret', "This is my client secret");
+	gs.info(hrp.id);
+	gs.info(hrp.name);
+	gs.info(hrp.client_secret);
+}]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-24 19:10:49</sys_created_on>
+        <sys_id>f9866c2797af4910cf6f797e6253af0a</sys_id>
+        <sys_name>CyrptoTracker Test FIx Script</sys_name>
+        <sys_package display_value="Crypto Tracker" source="x_404764_crypto_0">d733440497430110cf6f797e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+        <sys_update_name>sys_script_fix_f9866c2797af4910cf6f797e6253af0a</sys_update_name>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

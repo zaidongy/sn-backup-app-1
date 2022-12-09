@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="sn_hr_core_case" version="2" view="exp_dtmpsn_hr_core_caseadmin">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>hr_service</element>
+            <list_id display_value="sn_hr_core_case" element="NULL" name="sn_hr_core_case" parent="NULL" relationship="NULL" sys_domain="global" view="95b5686c972b9910cf6f797e6253af37">5db5ec28976b9910cf6f797e6253af15</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-30 07:35:41</sys_created_on>
+            <sys_id>59b5ec28976b9910cf6f797e6253af16</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-30 07:35:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="sn_hr_core_case" element="NULL" name="sn_hr_core_case" parent="NULL" relationship="NULL" sys_domain="global" view="95b5686c972b9910cf6f797e6253af37">5db5ec28976b9910cf6f797e6253af15</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-30 07:35:41</sys_created_on>
+            <sys_id>5db5ec28976b9910cf6f797e6253af16</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-30 07:35:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_description</element>
+            <list_id display_value="sn_hr_core_case" element="NULL" name="sn_hr_core_case" parent="NULL" relationship="NULL" sys_domain="global" view="95b5686c972b9910cf6f797e6253af37">5db5ec28976b9910cf6f797e6253af15</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-30 07:35:41</sys_created_on>
+            <sys_id>51b5ec28976b9910cf6f797e6253af17</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-30 07:35:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="sn_hr_core_case" element="NULL" name="sn_hr_core_case" parent="NULL" relationship="NULL" sys_domain="global" view="95b5686c972b9910cf6f797e6253af37">5db5ec28976b9910cf6f797e6253af15</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-30 07:35:41</sys_created_on>
+            <sys_id>55b5ec28976b9910cf6f797e6253af17</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-30 07:35:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assignment_group</element>
+            <list_id display_value="sn_hr_core_case" element="NULL" name="sn_hr_core_case" parent="NULL" relationship="NULL" sys_domain="global" view="95b5686c972b9910cf6f797e6253af37">5db5ec28976b9910cf6f797e6253af15</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-30 07:35:41</sys_created_on>
+            <sys_id>59b5ec28976b9910cf6f797e6253af17</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-30 07:35:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>opened_for</element>
+            <list_id display_value="sn_hr_core_case" element="NULL" name="sn_hr_core_case" parent="NULL" relationship="NULL" sys_domain="global" view="95b5686c972b9910cf6f797e6253af37">5db5ec28976b9910cf6f797e6253af15</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-30 07:35:41</sys_created_on>
+            <sys_id>5db5ec28976b9910cf6f797e6253af17</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-30 07:35:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="sn_hr_core_case" element="NULL" name="sn_hr_core_case" parent="NULL" relationship="NULL" sys_domain="global" view="95b5686c972b9910cf6f797e6253af37">5db5ec28976b9910cf6f797e6253af15</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-30 07:35:41</sys_created_on>
+            <sys_id>51b5ec28976b9910cf6f797e6253af18</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-30 07:35:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>subject_person</element>
+            <list_id display_value="sn_hr_core_case" element="NULL" name="sn_hr_core_case" parent="NULL" relationship="NULL" sys_domain="global" view="95b5686c972b9910cf6f797e6253af37">5db5ec28976b9910cf6f797e6253af15</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-30 07:35:41</sys_created_on>
+            <sys_id>55b5ec28976b9910cf6f797e6253af18</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-30 07:35:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sn_hr_core_case</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-30 07:35:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5db5ec28976b9910cf6f797e6253af15</sys_id>
+            <sys_name>sn_hr_core_case</sys_name>
+            <sys_package display_value="Crypto Tracker" source="x_404764_crypto_0">d733440497430110cf6f797e6253afa0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+            <sys_update_name>sys_ui_list_sn_hr_core_case_exp_dtmpsn_hr_core_caseadmin</sys_update_name>
+            <sys_user/>
+            <view display_value="Exp_dtmpsn_hr_core_caseadmin" name="exp_dtmpsn_hr_core_caseadmin">95b5686c972b9910cf6f797e6253af37</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

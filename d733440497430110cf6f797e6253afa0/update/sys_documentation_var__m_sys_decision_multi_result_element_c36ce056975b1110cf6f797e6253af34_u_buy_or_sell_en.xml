@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_buy_or_sell" label="Buy or Sell" language="en" table="var__m_sys_decision_multi_result_element_c36ce056975b1110cf6f797e6253af34">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_buy_or_sell</element>
+            <help/>
+            <hint/>
+            <label>Buy or Sell</label>
+            <language>en</language>
+            <name>var__m_sys_decision_multi_result_element_c36ce056975b1110cf6f797e6253af34</name>
+            <plural>Buy or Sell</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-23 08:22:42</sys_created_on>
+            <sys_name>Buy or Sell</sys_name>
+            <sys_package display_value="Crypto Tracker" source="x_404764_crypto_0">d733440497430110cf6f797e6253afa0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_decision_multi_result_element_c36ce056975b1110cf6f797e6253af34_u_buy_or_sell_en</sys_update_name>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

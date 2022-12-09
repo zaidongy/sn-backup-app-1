@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f3e3cc0497430110cf6f797e6253afca" label="Crypto Prices" max_length="40" name="x_404764_crypto_0_crypto_prices" type="collection">
+        <element attributes="edge_encryption_enabled=true,no_data_replicate=true" label="Client Secret" max_length="255" name="client_secret" type="password2"/>
+        <element label="ID" max_length="40" name="id" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Price" max_length="40" name="price" type="currency"/>
+        <element display="true" label="Symbol" max_length="40" name="ticker" type="string"/>
+    </element>
+</database>

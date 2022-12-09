@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_status_of_content">
+    <gsw_status_of_content action="INSERT_OR_UPDATE">
+        <best_practice_allowed_ever>0</best_practice_allowed_ever>
+        <checksum>mcZqCfWnzy/VODScIZieZCm7KXw=</checksum>
+        <content display_value="Agent Workspace for HR Case Management Guided Setup">bad9ea3ec8333010fa9b148475009453</content>
+        <effective_weight>1</effective_weight>
+        <more_info_visited>false</more_info_visited>
+        <previous_status>0</previous_status>
+        <progress>0</progress>
+        <related_log_entry display_value="2022-12-01 01:33:11">883a8e3c97e31d10cf6f797e6253afec</related_log_entry>
+        <status>1</status>
+        <sys_class_name>gsw_status_of_content</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-28 21:51:34</sys_created_on>
+        <sys_id>17661d88976b1910cf6f797e6253afb6</sys_id>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Crypto Tracker" source="x_404764_crypto_0">d733440497430110cf6f797e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+        <sys_update_name>gsw_status_of_content_17661d88976b1910cf6f797e6253afb6</sys_update_name>
+    </gsw_status_of_content>
+</record_update>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
+    <sys_alias action="DELETE">
+        <configuration_template/>
+        <connection_type>http_connection</connection_type>
+        <id>x_404764_crypto_0.Personal_Github</id>
+        <multiple_connections>false</multiple_connections>
+        <name>Personal Github</name>
+        <parent/>
+        <retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy>
+        <sys_class_name>sys_alias</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-23 08:40:19</sys_created_on>
+        <sys_id>bf41fc9e975b1110cf6f797e6253af5a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_404764_crypto_0.Personal_Github</sys_name>
+        <sys_package display_value="Crypto Tracker" source="x_404764_crypto_0">d733440497430110cf6f797e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+        <sys_update_name>sys_alias_bf41fc9e975b1110cf6f797e6253af5a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-23 08:41:16</sys_updated_on>
+        <type>credential</type>
+    </sys_alias>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</application>
+        <file_path/>
+        <instance_id>e5186587db371fc00e785d00cf961901</instance_id>
+        <instance_name>dev70149</instance_name>
+        <name>sys_alias_bf41fc9e975b1110cf6f797e6253af5a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias"><sys_alias action="INSERT_OR_UPDATE"><configuration_template/><connection_type>http_connection</connection_type><id>x_404764_crypto_0.Personal_Github</id><multiple_connections>false</multiple_connections><name>Personal Github</name><parent/><retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy><sys_class_name>sys_alias</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-23 08:40:19</sys_created_on><sys_id>bf41fc9e975b1110cf6f797e6253af5a</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_404764_crypto_0.Personal_Github</sys_name><sys_package display_value="Crypto Tracker" source="x_404764_crypto_0">d733440497430110cf6f797e6253afa0</sys_package><sys_policy/><sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope><sys_update_name>sys_alias_bf41fc9e975b1110cf6f797e6253af5a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-23 08:41:16</sys_updated_on><type>credential</type></sys_alias></record_update>]]></payload>
+        <payload_hash>-16853997</payload_hash>
+        <record_name>x_404764_crypto_0.Personal_Github</record_name>
+        <reverted_from/>
+        <source>3940385e975b1110cf6f797e6253af34</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-23 08:41:16</sys_created_on>
+        <sys_id>bd9174de975b1110cf6f797e6253af14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184a3a603ad0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-23 08:41:16</sys_updated_on>
+        <type>Connection &amp; Credential Aliases</type>
+        <update_guid>759174de935b1110786f1fb59f261e14</update_guid>
+        <update_guid_history>759174de935b1110786f1fb59f261e14:-16853997,f751b85e6a5b11102fe1197229c62eff:1289566252</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-23 08:48:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_alias">sys_alias</sys_db_object>
+        <sys_id>08d40261cbd24a478ff94558a0715509</sys_id>
+        <sys_metadata>bf41fc9e975b1110cf6f797e6253af5a</sys_metadata>
+        <sys_name>x_404764_crypto_0.Personal_Github</sys_name>
+        <sys_package display_value="Crypto Tracker" source="x_404764_crypto_0">d733440497430110cf6f797e6253afa0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+        <sys_scope_delete display_value="">03d984c06a1f439080130e9b17491984</sys_scope_delete>
+        <sys_update_name>sys_alias_bf41fc9e975b1110cf6f797e6253af5a</sys_update_name>
+        <sys_update_version display_value="sys_alias_bf41fc9e975b1110cf6f797e6253af5a">bd9174de975b1110cf6f797e6253af14</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="additional_review" label="Requires Additional Review" language="en" table="sc_cat_item">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>additional_review</element>
+            <help/>
+            <hint>Make an additional review for this item</hint>
+            <label>Requires Additional Review</label>
+            <language>en</language>
+            <name>sc_cat_item</name>
+            <plural>Requires Additional Reviews</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-17 19:45:14</sys_created_on>
+            <sys_name>Requires Additional Review</sys_name>
+            <sys_package display_value="Crypto Tracker" source="x_404764_crypto_0">d733440497430110cf6f797e6253afa0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+            <sys_update_name>sys_documentation_sc_cat_item_additional_review_en</sys_update_name>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

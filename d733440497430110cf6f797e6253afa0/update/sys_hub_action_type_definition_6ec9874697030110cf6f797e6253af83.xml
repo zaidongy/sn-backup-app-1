@@ -1,0 +1,1596 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>get_cmc_crypto_prices</internal_name>
+        <label_cache>[{"name":"{{step[800f6255-a1c4-47a2-8b96-ebfe2f9d1574].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[9090b963-bfb6-4142-a9a1-592ebdf6e173].variable}}","label":"step➛JSON Parser step➛variable","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[e3910856-4bf2-436b-8786-4ac9e227d5b2].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[4e738931-922c-44e0-8f48-189981f70546].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"FDb351abc65b830110263ecda5289d5e0a","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"04cc2f3d-e0fa-41fd-9a8e-ddc60456aafb"}}]</label_cache>
+        <master_snapshot>2a1493ca97430110cf6f797e6253af39</master_snapshot>
+        <name>Get CMC Crypto Prices</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 18:40:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6ec9874697030110cf6f797e6253af83</sys_id>
+        <sys_name>Get CMC Crypto Prices</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Crypto Tracker" source="x_404764_crypto_0">d733440497430110cf6f797e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_6ec9874697030110cf6f797e6253af83</sys_update_name>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=6ec9874697030110cf6f797e6253af83"/>
+    <sys_variable_value action="delete_multiple" query="document_key=6ec9874697030110cf6f797e6253af83"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>6ec9874697030110cf6f797e6253af83</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:08:04</sys_created_on>
+        <sys_id>1400df8697430110cf6f797e6253afc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:08:04</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">0400df8697430110cf6f797e6253afbd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>6ec9874697030110cf6f797e6253af83</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:08:04</sys_created_on>
+        <sys_id>d400df8697430110cf6f797e6253afc6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:09:03</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD0400df86f5430110f389b875886404b4":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD0400df86f5430110f389b875886404b4.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"88933982-8a45-481c-8c0d-f59c36cc6007\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD0400df86f5430110f389b875886404b4\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">8400df8697430110cf6f797e6253afb7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6ec9874697030110cf6f797e6253af83"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response</field>
+        <id>6ec9874697030110cf6f797e6253af83</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:22:46</sys_created_on>
+        <sys_id>6353938a97430110cf6f797e6253af7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:22:46</sys_updated_on>
+        <table>var__m_sys_hub_action_output_6ec9874697030110cf6f797e6253af83</table>
+        <value>{{step[800f6255-a1c4-47a2-8b96-ebfe2f9d1574].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>6ec9874697030110cf6f797e6253af83</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:08:04</sys_created_on>
+        <sys_id>9000df8697430110cf6f797e6253afc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:08:04</sys_updated_on>
+        <table>var__m_sys_hub_action_output_6ec9874697030110cf6f797e6253af83</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>6ec9874697030110cf6f797e6253af83</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:08:04</sys_created_on>
+        <sys_id>dc00df8697430110cf6f797e6253afc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:08:04</sys_updated_on>
+        <table>var__m_sys_hub_action_output_6ec9874697030110cf6f797e6253af83</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=6ec9874697030110cf6f797e6253af83^sys_idNOT IN0800df8697430110cf6f797e6253af8a,e453674a97830110cf6f797e6253afdd"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get CMC Crypto Prices">6ec9874697030110cf6f797e6253af83</action>
+        <cid>800f6255-a1c4-47a2-8b96-ebfe2f9d1574</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:08:03</sys_created_on>
+        <sys_id>0800df8697430110cf6f797e6253af8a</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 21:35:45</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0800df8697430110cf6f797e6253af8a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0800df8697430110cf6f797e6253af8a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:08:03</sys_created_on>
+        <sys_id>0000df8697430110cf6f797e6253afaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:08:03</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0800df8697430110cf6f797e6253af8a</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:08:03</sys_created_on>
+        <sys_id>0000df8697430110cf6f797e6253afb0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:22:45</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"X-CMC_PRO_API_KEY","value":"e3899068-ca51-4574-a605-e0a41b96659b"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Accept","value":"application/json"}]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0800df8697430110cf6f797e6253af8a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:08:03</sys_created_on>
+        <sys_id>0c00df8697430110cf6f797e6253afb0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:18:12</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0800df8697430110cf6f797e6253af8a</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:08:03</sys_created_on>
+        <sys_id>4800df8697430110cf6f797e6253afb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:08:03</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0800df8697430110cf6f797e6253af8a</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:08:03</sys_created_on>
+        <sys_id>4c00df8697430110cf6f797e6253afaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:08:03</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0800df8697430110cf6f797e6253af8a</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:08:03</sys_created_on>
+        <sys_id>8400df8697430110cf6f797e6253afb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:08:03</sys_updated_on>
+        <value>https://pro-api.coinmarketcap.com</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0800df8697430110cf6f797e6253af8a</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:08:03</sys_created_on>
+        <sys_id>8800df8697430110cf6f797e6253afaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:08:03</sys_updated_on>
+        <value>/v1/cryptocurrency/listings/latest</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0800df8697430110cf6f797e6253af8a</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:09:03</sys_created_on>
+        <sys_id>aa30d3c697430110cf6f797e6253af62</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 21:35:45</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"start","value":"1"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"limit","value":"2"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"convert","value":"usd"}]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0800df8697430110cf6f797e6253af8a</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:08:03</sys_created_on>
+        <sys_id>c000df8697430110cf6f797e6253afb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:08:03</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0800df8697430110cf6f797e6253af8a</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:09:03</sys_created_on>
+        <sys_id>e230d3c697430110cf6f797e6253af62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:09:03</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Enable Retry Policy">321e31fd87803300a8cc7d5e27cb0b7a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0800df8697430110cf6f797e6253af8a</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:09:03</sys_created_on>
+        <sys_id>e630d3c697430110cf6f797e6253af62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:09:03</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129^id=0800df8697430110cf6f797e6253af8a"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=0800df8697430110cf6f797e6253af8a"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=0800df8697430110cf6f797e6253af8a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0800df8697430110cf6f797e6253af8a^sys_idNOT IN0800df8697430110cf6f797e6253afaa,6630d3c697430110cf6f797e6253af60"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>headers</input_name>
+        <instance>0800df8697430110cf6f797e6253af8a</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"name-values-0-value-input":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nreturn gs.getProperty(\u0027x_404764_crypto_0.cmc_api_key\u0027);\n// return new global.ScopedEncrypter().decrypt(key);\n// new global.ScopedEncrypter().decrypt(encryptedSecret);","savedValue":""}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:08:03</sys_created_on>
+        <sys_id>0800df8697430110cf6f797e6253afaa</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:24:55</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>save_response_as_attachment</input_name>
+        <instance>0800df8697430110cf6f797e6253af8a</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"save_response_as_attachment":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:09:03</sys_created_on>
+        <sys_id>6630d3c697430110cf6f797e6253af60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:09:03</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_0800df8697430110cf6f797e6253af8a"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get CMC Crypto Prices">6ec9874697030110cf6f797e6253af83</action>
+        <cid>76a084a0-084c-4272-8fc8-091a11afe9a7</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step - Import Set</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 20:32:28</sys_created_on>
+        <sys_id>e453674a97830110cf6f797e6253afdd</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 21:39:34</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e453674a97830110cf6f797e6253afdd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e453674a97830110cf6f797e6253afdd</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 20:32:28</sys_created_on>
+        <sys_id>6853674a97830110cf6f797e6253afeb</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 21:39:34</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  
+  //gs.info('cy2: ' + JSON.stringify(JSON.parse(inputs.response_body).data));
+  processResponse(inputs.response_body);
+  
+  function processResponse(r) {
+  	var impSet = new GlideRecord('sys_import_set');
+    impSet.initialize();
+    impSet.state = 'loading';
+    impSet.mode = 'asynchronous';
+    impSet.table_name = 'x_404764_crypto_0_crypto_price_import';
+    impSet.short_description = 'Scheduled Crypto Currenty Data Import';
+    impSet.insert();
+    
+    var response = JSON.parse(r)
+    for(var i = 0 ; i &lt; response.length; i++) {
+      var row = response.data[i];
+      var impSetRow = new GlideRecord('x_404764_crypto_0_crypto_price_import');
+      impSetRow.sys_import_state = 'pending';
+      impSetRow.sys_import_set = impSet.getUniqueValue();
+      
+      impSetRow.name = row.name;
+      impSetRow.id = row.id;
+      impSetRow.symbol = row.symbol;
+      impSetRow.slug = row.slug;
+      impSetRow.num_market_pairs = row.num_market_pairs;
+      impSetRow.cmc_rank = row.cmc_rank;
+      impSetRow.max_supply = row.max_supply;
+      impSetRow.platform = row.platform;
+      //impSetRow.price = row['quote']['usd']['price'];
+      impSetRow.insert();
+    }
+    impSet.state = 'loaded';
+    impSet.update();
+    
+    new GlideImportSetTransformer().transformAllMaps(impSet);
+    
+  }
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e453674a97830110cf6f797e6253afdd</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 20:32:28</sys_created_on>
+        <sys_id>a453674a97830110cf6f797e6253afeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 20:32:28</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e453674a97830110cf6f797e6253afdd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>e453674a97830110cf6f797e6253afdd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 20:32:28</sys_created_on>
+        <sys_id>6053674a97830110cf6f797e6253afeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 20:32:28</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response_body</field>
+        <id>e453674a97830110cf6f797e6253afdd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 21:35:22</sys_created_on>
+        <sys_id>02b1f3c697c30110cf6f797e6253af2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 21:35:22</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_e453674a97830110cf6f797e6253afdd</table>
+        <value>{{step[800f6255-a1c4-47a2-8b96-ebfe2f9d1574].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>res_body</field>
+        <id>e453674a97830110cf6f797e6253afdd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 20:32:28</sys_created_on>
+        <sys_id>6453674a97830110cf6f797e6253afec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 20:32:28</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_e453674a97830110cf6f797e6253afdd</table>
+        <value>{{step[800f6255-a1c4-47a2-8b96-ebfe2f9d1574].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>e453674a97830110cf6f797e6253afdd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 20:32:28</sys_created_on>
+        <sys_id>2453674a97830110cf6f797e6253afeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 20:32:28</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=e453674a97830110cf6f797e6253afdd"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=e453674a97830110cf6f797e6253afdd^sys_idNOT INb1b1f3c697c30110cf6f797e6253af1e"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response_body</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step - Import Set">e453674a97830110cf6f797e6253afdd</model>
+        <model_id>e453674a97830110cf6f797e6253afdd</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_e453674a97830110cf6f797e6253afdd</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 21:35:22</sys_created_on>
+        <sys_id>b1b1f3c697c30110cf6f797e6253af1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 21:35:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=e453674a97830110cf6f797e6253afdd"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e453674a97830110cf6f797e6253afdd"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_e453674a97830110cf6f797e6253afdd"/>
+    <sys_hub_action_input action="delete_multiple" query="model=6ec9874697030110cf6f797e6253af83"/>
+    <sys_hub_action_output action="delete_multiple" query="model=6ec9874697030110cf6f797e6253af83^sys_idNOT IN0400df8697430110cf6f797e6253afbd,8400df8697430110cf6f797e6253afb7,be801bc697430110cf6f797e6253af19"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=3d3db184-a643-408f-acf0-b8f494e8d4b7,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get CMC Crypto Prices">6ec9874697030110cf6f797e6253af83</model>
+        <model_id>6ec9874697030110cf6f797e6253af83</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_6ec9874697030110cf6f797e6253af83</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:08:04</sys_created_on>
+        <sys_id>0400df8697430110cf6f797e6253afbd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:08:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0400df8697430110cf6f797e6253afbd"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0400df8697430110cf6f797e6253afbd"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FD0400df86f5430110f389b875886404b4,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=88933982-8a45-481c-8c0d-f59c36cc6007</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get CMC Crypto Prices">6ec9874697030110cf6f797e6253af83</model>
+        <model_id>6ec9874697030110cf6f797e6253af83</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_6ec9874697030110cf6f797e6253af83</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:08:04</sys_created_on>
+        <sys_id>8400df8697430110cf6f797e6253afb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:08:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8400df8697430110cf6f797e6253afb7"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8400df8697430110cf6f797e6253afb7"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=89ad5009-9006-4c1d-a0fd-9bf135e281e3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response</element>
+        <element_prototype display_value="Response Body" element="response_body" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">a804c77347622200b4fad7527c9a7119</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Response</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Get CMC Crypto Prices">6ec9874697030110cf6f797e6253af83</model>
+        <model_id>6ec9874697030110cf6f797e6253af83</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_6ec9874697030110cf6f797e6253af83</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:10:26</sys_created_on>
+        <sys_id>be801bc697430110cf6f797e6253af19</sys_id>
+        <sys_mod_count>40</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 21:39:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=be801bc697430110cf6f797e6253af19"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=be801bc697430110cf6f797e6253af19^sys_idNOT INaf53938a97430110cf6f797e6253af7d"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>response</input_name>
+        <instance>be801bc697430110cf6f797e6253af19</instance>
+        <referenced_table>sys_hub_action_output</referenced_table>
+        <script>{"response":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:22:46</sys_created_on>
+        <sys_id>af53938a97430110cf6f797e6253af7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:22:46</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=6ec9874697030110cf6f797e6253af83"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=6ec9874697030110cf6f797e6253af83^sys_idNOT IN1400df8697430110cf6f797e6253afc8"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Get CMC Crypto Prices">6ec9874697030110cf6f797e6253af83</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:08:04</sys_created_on>
+        <sys_id>1400df8697430110cf6f797e6253afc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:08:04</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=1400df8697430110cf6f797e6253afc8"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_6ec9874697030110cf6f797e6253af83"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_6ec9874697030110cf6f797e6253af83"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_6ec9874697030110cf6f797e6253af83^sys_idNOT IN4400df8697430110cf6f797e6253afbc,9400df8697430110cf6f797e6253afc3,f6801bc697430110cf6f797e6253af1d"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_6ec9874697030110cf6f797e6253af83</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:08:04</sys_created_on>
+        <sys_id>4400df8697430110cf6f797e6253afbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Crypto Tracker" source="x_404764_crypto_0">d733440497430110cf6f797e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:08:04</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_6ec9874697030110cf6f797e6253af83</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:08:04</sys_created_on>
+        <sys_id>9400df8697430110cf6f797e6253afc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Crypto Tracker" source="x_404764_crypto_0">d733440497430110cf6f797e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:08:04</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>response</element>
+        <help/>
+        <hint/>
+        <label>Response</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_6ec9874697030110cf6f797e6253af83</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:10:26</sys_created_on>
+        <sys_id>f6801bc697430110cf6f797e6253af1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Crypto Tracker" source="x_404764_crypto_0">d733440497430110cf6f797e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:10:26</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_6ec9874697030110cf6f797e6253af83"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=6ec9874697030110cf6f797e6253af83^sys_idNOT IN071493ca97430110cf6f797e6253afef"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Get CMC Crypto Prices">6ec9874697030110cf6f797e6253af83</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"071493ca97430110cf6f797e6253afef","name":"plan","plan_signature":null}}</plan>
+        <snapshot>ae1493ca97430110cf6f797e6253af6b</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:26:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>071493ca97430110cf6f797e6253afef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:26:00</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>get_cmc_crypto_prices</internal_name>
+        <label_cache>[{"name":"{{step[800f6255-a1c4-47a2-8b96-ebfe2f9d1574].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[9090b963-bfb6-4142-a9a1-592ebdf6e173].variable}}","label":"step➛JSON Parser step➛variable","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Get CMC Crypto Prices</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Get CMC Crypto Prices">6ec9874697030110cf6f797e6253af83</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:25:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2a1493ca97430110cf6f797e6253af39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:25:58</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=2a1493ca97430110cf6f797e6253af39"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2a1493ca97430110cf6f797e6253af39"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>2a1493ca97430110cf6f797e6253af39</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:25:59</sys_created_on>
+        <sys_id>aa1493ca97430110cf6f797e6253af69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:25:59</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDee1493cad24301109545696225e64150":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDee1493cad24301109545696225e64150.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"88933982-8a45-481c-8c0d-f59c36cc6007\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDee1493cad24301109545696225e64150\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">261493ca97430110cf6f797e6253af53</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>2a1493ca97430110cf6f797e6253af39</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:25:59</sys_created_on>
+        <sys_id>e61493ca97430110cf6f797e6253af69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:25:59</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">661493ca97430110cf6f797e6253af58</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2a1493ca97430110cf6f797e6253af39"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response</field>
+        <id>2a1493ca97430110cf6f797e6253af39</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:25:59</sys_created_on>
+        <sys_id>ee1493ca97430110cf6f797e6253af68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:25:59</sys_updated_on>
+        <table>var__m_sys_hub_action_output_2a1493ca97430110cf6f797e6253af39</table>
+        <value>{{step[800f6255-a1c4-47a2-8b96-ebfe2f9d1574].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>2a1493ca97430110cf6f797e6253af39</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:25:59</sys_created_on>
+        <sys_id>661493ca97430110cf6f797e6253af69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:25:59</sys_updated_on>
+        <table>var__m_sys_hub_action_output_2a1493ca97430110cf6f797e6253af39</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>2a1493ca97430110cf6f797e6253af39</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:25:59</sys_created_on>
+        <sys_id>a21493ca97430110cf6f797e6253af69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:25:59</sys_updated_on>
+        <table>var__m_sys_hub_action_output_2a1493ca97430110cf6f797e6253af39</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=2a1493ca97430110cf6f797e6253af39^sys_idNOT INa21493ca97430110cf6f797e6253af3d"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get CMC Crypto Prices">2a1493ca97430110cf6f797e6253af39</action>
+        <cid>800f6255-a1c4-47a2-8b96-ebfe2f9d1574</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:25:58</sys_created_on>
+        <sys_id>a21493ca97430110cf6f797e6253af3d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:25:58</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a21493ca97430110cf6f797e6253af3d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a21493ca97430110cf6f797e6253af3d</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:25:58</sys_created_on>
+        <sys_id>221493ca97430110cf6f797e6253af4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:25:58</sys_updated_on>
+        <value>https://pro-api.coinmarketcap.com</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a21493ca97430110cf6f797e6253af3d</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:25:58</sys_created_on>
+        <sys_id>261493ca97430110cf6f797e6253af4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:25:58</sys_updated_on>
+        <value>/v1/cryptocurrency/listings/latest</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a21493ca97430110cf6f797e6253af3d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:25:58</sys_created_on>
+        <sys_id>621493ca97430110cf6f797e6253af4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:25:58</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a21493ca97430110cf6f797e6253af3d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:25:58</sys_created_on>
+        <sys_id>6a1493ca97430110cf6f797e6253af4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:25:58</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a21493ca97430110cf6f797e6253af3d</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:25:58</sys_created_on>
+        <sys_id>6e1493ca97430110cf6f797e6253af4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:25:58</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a21493ca97430110cf6f797e6253af3d</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:25:58</sys_created_on>
+        <sys_id>a61493ca97430110cf6f797e6253af4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:25:58</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a21493ca97430110cf6f797e6253af3d</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:25:58</sys_created_on>
+        <sys_id>aa1493ca97430110cf6f797e6253af4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:25:58</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"X-CMC_PRO_API_KEY","value":"e3899068-ca51-4574-a605-e0a41b96659b"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Accept","value":"application/json"}]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a21493ca97430110cf6f797e6253af3d</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:25:58</sys_created_on>
+        <sys_id>ae1493ca97430110cf6f797e6253af4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:25:58</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a21493ca97430110cf6f797e6253af3d</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:25:58</sys_created_on>
+        <sys_id>e21493ca97430110cf6f797e6253af4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:25:58</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a21493ca97430110cf6f797e6253af3d</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:25:58</sys_created_on>
+        <sys_id>e61493ca97430110cf6f797e6253af4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:25:58</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a21493ca97430110cf6f797e6253af3d</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:25:58</sys_created_on>
+        <sys_id>ea1493ca97430110cf6f797e6253af4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:25:58</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Enable Retry Policy">321e31fd87803300a8cc7d5e27cb0b7a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129^id=a21493ca97430110cf6f797e6253af3d"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=a21493ca97430110cf6f797e6253af3d"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=a21493ca97430110cf6f797e6253af3d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a21493ca97430110cf6f797e6253af3d^sys_idNOT IN2e1493ca97430110cf6f797e6253af47,661493ca97430110cf6f797e6253af48"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>headers</input_name>
+        <instance>a21493ca97430110cf6f797e6253af3d</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"name-values-0-value-input":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nreturn gs.getProperty(\u0027x_404764_crypto_0.cmc_api_key\u0027);\n// return new global.ScopedEncrypter().decrypt(key);\n// new global.ScopedEncrypter().decrypt(encryptedSecret);","savedValue":""}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:25:58</sys_created_on>
+        <sys_id>2e1493ca97430110cf6f797e6253af47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:25:58</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>save_response_as_attachment</input_name>
+        <instance>a21493ca97430110cf6f797e6253af3d</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"save_response_as_attachment":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:25:58</sys_created_on>
+        <sys_id>661493ca97430110cf6f797e6253af48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:25:58</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_a21493ca97430110cf6f797e6253af3d"/>
+    <sys_hub_action_input action="delete_multiple" query="model=2a1493ca97430110cf6f797e6253af39"/>
+    <sys_hub_action_output action="delete_multiple" query="model=2a1493ca97430110cf6f797e6253af39^sys_idNOT IN261493ca97430110cf6f797e6253af53,621493ca97430110cf6f797e6253af5f,661493ca97430110cf6f797e6253af58"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDee1493cad24301109545696225e64150,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=88933982-8a45-481c-8c0d-f59c36cc6007</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get CMC Crypto Prices">2a1493ca97430110cf6f797e6253af39</model>
+        <model_id>2a1493ca97430110cf6f797e6253af39</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_2a1493ca97430110cf6f797e6253af39</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:25:58</sys_created_on>
+        <sys_id>261493ca97430110cf6f797e6253af53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:25:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=261493ca97430110cf6f797e6253af53"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=261493ca97430110cf6f797e6253af53"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=89ad5009-9006-4c1d-a0fd-9bf135e281e3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response</element>
+        <element_prototype display_value="Response Body" element="response_body" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">a804c77347622200b4fad7527c9a7119</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Response</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Get CMC Crypto Prices">2a1493ca97430110cf6f797e6253af39</model>
+        <model_id>2a1493ca97430110cf6f797e6253af39</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_2a1493ca97430110cf6f797e6253af39</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:25:59</sys_created_on>
+        <sys_id>621493ca97430110cf6f797e6253af5f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:25:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=621493ca97430110cf6f797e6253af5f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=621493ca97430110cf6f797e6253af5f^sys_idNOT INa61493ca97430110cf6f797e6253af68"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>response</input_name>
+        <instance>621493ca97430110cf6f797e6253af5f</instance>
+        <referenced_table>sys_hub_action_output</referenced_table>
+        <script>{"response":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:25:59</sys_created_on>
+        <sys_id>a61493ca97430110cf6f797e6253af68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:25:59</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=3d3db184-a643-408f-acf0-b8f494e8d4b7,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get CMC Crypto Prices">2a1493ca97430110cf6f797e6253af39</model>
+        <model_id>2a1493ca97430110cf6f797e6253af39</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_2a1493ca97430110cf6f797e6253af39</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:25:59</sys_created_on>
+        <sys_id>661493ca97430110cf6f797e6253af58</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:25:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=661493ca97430110cf6f797e6253af58"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=661493ca97430110cf6f797e6253af58"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=2a1493ca97430110cf6f797e6253af39"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=2a1493ca97430110cf6f797e6253af39^sys_idNOT INaa1493ca97430110cf6f797e6253af6b"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Get CMC Crypto Prices">2a1493ca97430110cf6f797e6253af39</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:25:59</sys_created_on>
+        <sys_id>aa1493ca97430110cf6f797e6253af6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:25:59</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=aa1493ca97430110cf6f797e6253af6b"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_2a1493ca97430110cf6f797e6253af39"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_2a1493ca97430110cf6f797e6253af39"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_2a1493ca97430110cf6f797e6253af39^sys_idNOT INa21493ca97430110cf6f797e6253af5e,a61493ca97430110cf6f797e6253af57,ea1493ca97430110cf6f797e6253af62"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_2a1493ca97430110cf6f797e6253af39</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:25:59</sys_created_on>
+        <sys_id>a21493ca97430110cf6f797e6253af5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Crypto Tracker" source="x_404764_crypto_0">d733440497430110cf6f797e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:25:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_2a1493ca97430110cf6f797e6253af39</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:25:59</sys_created_on>
+        <sys_id>a61493ca97430110cf6f797e6253af57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Crypto Tracker" source="x_404764_crypto_0">d733440497430110cf6f797e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:25:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>response</element>
+        <help/>
+        <hint/>
+        <label>Response</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_2a1493ca97430110cf6f797e6253af39</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:25:59</sys_created_on>
+        <sys_id>ea1493ca97430110cf6f797e6253af62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Crypto Tracker" source="x_404764_crypto_0">d733440497430110cf6f797e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:25:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_2a1493ca97430110cf6f797e6253af39"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>6ec9874697030110cf6f797e6253af83</sys_id>
+        <latest_snapshot>2a1493ca97430110cf6f797e6253af39</latest_snapshot>
+        <compiler_build>glide-sandiego-12-22-2021__patch1-03-02-2022_03-17-2022_1811.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>

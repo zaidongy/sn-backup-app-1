@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>write</operation>
+        <source_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-04-25 21:39:40</sys_created_on>
+        <sys_id>c1b27b0a97c30110cf6f797e6253afd7</sys_id>
+        <sys_name>sys_import_set</sys_name>
+        <sys_package display_value="Crypto Tracker" source="x_404764_crypto_0">d733440497430110cf6f797e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+        <sys_update_name>sys_scope_privilege_c1b27b0a97c30110cf6f797e6253afd7</sys_update_name>
+        <target_name>sys_import_set</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+</record_update>

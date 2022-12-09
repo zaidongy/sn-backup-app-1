@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_404764_crypto_0.crypto_price_import_user" name="x_404764_crypto_0.crypto_price_import_user">da95970e97430110cf6f797e6253af52</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 19:32:31</sys_created_on>
+        <sys_id>1695970e97430110cf6f797e6253af54</sys_id>
+        <sys_name>da95970e97430110cf6f797e6253af52</sys_name>
+        <sys_package display_value="Crypto Tracker" source="x_404764_crypto_0">d733440497430110cf6f797e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+        <sys_update_name>sys_embedded_help_role_1695970e97430110cf6f797e6253af54</sys_update_name>
+    </sys_embedded_help_role>
+</record_update>

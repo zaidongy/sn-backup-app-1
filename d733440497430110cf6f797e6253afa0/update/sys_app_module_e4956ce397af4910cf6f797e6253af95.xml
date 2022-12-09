@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="CryptoTracker">b775e8e397af4910cf6f797e6253af23</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint>Most up to date crypto prices</hint>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Crypto Prices</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_404764_crypto_0_crypto_prices</name>
+        <order>100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-24 19:06:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e4956ce397af4910cf6f797e6253af95</sys_id>
+        <sys_name>Crypto Prices</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Crypto Tracker" source="x_404764_crypto_0">d733440497430110cf6f797e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+        <sys_update_name>sys_app_module_e4956ce397af4910cf6f797e6253af95</sys_update_name>
+        <timeline_page/>
+        <title>Crypto Prices</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

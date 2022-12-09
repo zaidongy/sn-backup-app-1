@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description/>
+        <name>Assign Delegated Role to Groups</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[// var userid = '3117a3e597534110cf6f797e6253afae'; //Test dev 1
+var groupId = '2f85134b97938110cf6f797e6253af4c'; // CryptoTrackerDevs
+var myScopeId = 'd733440497430110cf6f797e6253afa0'; //sys_scope
+
+// var myPermissionSetId = '043a115e679112006cc2956c33415a36'; // All Metadata
+
+var permissionList = getPermList();
+// gs.debug(permissionList)
+
+for(var i = 0; i < permissionList.length; i++) {
+    var myPermissionSetId = permissionList[i];
+    var mgr = DelegatedDevRoleManagerPP.forScopeAndPermissionSet(myScopeId, myPermissionSetId);
+
+    // mgr.allocatePermissionToUser(userid);
+    mgr.allocatePermissionToGroup(groupId);
+}
+
+function getPermList() {
+    var permList = [];
+    var permgr = new GlideRecord('sys_development_permission_set');
+    permgr.query();
+    while(permgr.next()) 
+        permList.push(permgr.getUniqueValue());
+    return permList;
+}
+
+
+]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-11 09:32:34</sys_created_on>
+        <sys_id>cfa56b0f97d38110cf6f797e6253affb</sys_id>
+        <sys_name>Assign Delegated Role to Groups</sys_name>
+        <sys_package display_value="Crypto Tracker" source="x_404764_crypto_0">d733440497430110cf6f797e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+        <sys_update_name>sys_script_fix_cfa56b0f97d38110cf6f797e6253affb</sys_update_name>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

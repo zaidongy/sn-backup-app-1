@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_404764_crypto_0.cryptoTrackerUtil_2</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Implements extension point x_404764_crypto_0.cryptoTrackerUtil</description>
+        <name>cryptoTrackerUtil_2</name>
+        <script><![CDATA[var cryptoTrackerUtil_2 = Class.create();
+cryptoTrackerUtil_2.prototype = {
+    initialize: function() {
+    },
+	
+	log: function() {
+		gs.info("Logging Implementation #2");
+	},
+
+    process: function(/*array*/ data) {
+        data.push("new entry");
+        return data;
+    },
+
+    type: 'cryptoTrackerUtil_2'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-11 21:56:47</sys_created_on>
+        <sys_id>3700d29b975f8110cf6f797e6253aff1</sys_id>
+        <sys_name>cryptoTrackerUtil_2</sys_name>
+        <sys_package display_value="Crypto Tracker" source="x_404764_crypto_0">d733440497430110cf6f797e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto Tracker">d733440497430110cf6f797e6253afa0</sys_scope>
+        <sys_update_name>sys_script_include_3700d29b975f8110cf6f797e6253aff1</sys_update_name>
+    </sys_script_include>
+</record_update>
